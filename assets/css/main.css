@@ -398,12 +398,9 @@ header nav a {
   display: inline-block;
   margin-left: 20px;
   color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
-}
-
-header nav a font {
-  size: 14px;
-  weight: 700;
 }
 
 header nav a:hover {
