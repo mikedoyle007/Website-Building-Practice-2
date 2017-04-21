@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Artist Theme Website
+title: Artist Theme
+kicker: "Thinker // Designer // YouTuber"
 email: mikedoyle007@gmail.com
 description: > # Using the Devtips Starter Kit as a starting point, and following along
   with the Devtips youtube channel to create a version of the Artist Theme Website.
