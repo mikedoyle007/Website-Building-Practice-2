@@ -546,6 +546,61 @@ h3 {
   font-weight: 300;
 }
 
+.skill-lockup {
+  max-width: 700px;
+  margin: 100px auto;
+  color: #999;
+}
+
+.skill-lockup::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.skill-lockup .skill-unit {
+  width: 350px;
+  float: left;
+}
+
+.skill-lockup .skill-icons {
+  font-size: 0;
+  margin-bottom: 0px 0 30px;
+}
+
+.skill-lockup .skill-icons span {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  background-color: #c99065;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.skill-lockup .skill-icons span:after {
+  content: '';
+  display: block;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.skill-lockup .skill-icons.skill-8 span:nth-child(n+9) {
+  background: #e5eaee;
+}
+
+@media screen and (max-width: 714px) {
+  .skill-lockup {
+    width: 270px;
+  }
+}
+
+.skill-lockup .skill-icons.skill-1 span:nth-child(n+1), .skill-lockup .skill-icons.skill-2 span:nth-child(n+2), .skill-lockup .skill-icons.skill-3 span:nth-child(n+3), .skill-lockup .skill-icons.skill-4 span:nth-child(n+4), .skill-lockup .skill-icons.skill-5 span:nth-child(n+5), .skill-lockup .skill-icons.skill-6 span:nth-child(n+6), .skill-lockup .skill-icons.skill-7 span:nth-child(n+7), .skill-lockup .skill-icons.skill-8 span:nth-child(n+8), .skill-lockup .skill-icons.skill-9 span:nth-child(n+9), .skill-lockup .skill-icons.skill-10 span:nth-child(n+10) {
+  background: #e5eaee;
+}
+
 footer {
   background: url(../img/hero-bg.jpg) center center;
   background-size: cover;
