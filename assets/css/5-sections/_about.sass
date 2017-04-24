@@ -96,7 +96,7 @@ h3
       background: $bgcolor
 
     @for $i from 1 through 10
-      &.skill-#{$i} span:nth-child(n+#{$i})
+      &.skill-#{$i} span:nth-child(n+#{$i + 1})
         @extend %skill-color
 
 //@media screen and (max-width: 541px)
