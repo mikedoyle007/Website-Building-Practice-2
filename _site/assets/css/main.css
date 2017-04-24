@@ -249,6 +249,13 @@ body h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   text-transform: uppercase;
 }
 
+header, footer {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 50px, 50% 50%;
+  background-blend-mode: overlay, normal;
+}
+
 body {
   background-color: white;
   font-size: 14px;
@@ -397,10 +404,7 @@ input[type="button"]:focus {
 
 header {
   height: 450px;
-  background: url(../img/logo.svg) no-repeat, url(../img/hero-bg.jpg) center center;
-  background-size: 50px 50px, cover;
-  background-position: 30px 50px, 50% 50%;
-  background-blend-mode: overlay, normal;
+  background-position: 30px 20px, 50% 50%;
 }
 
 header .logo {
@@ -473,15 +477,15 @@ header .kicker {
   -o-align-items: center;
   align-items: center;
   -ms-flex-align: center;
-  -webkit-box-pack: distribute;
-  -moz-box-pack: distribute;
-  box-pack: distribute;
-  -webkit-justify-content: space-around;
-  -moz-justify-content: space-around;
-  -ms-justify-content: space-around;
-  -o-justify-content: space-around;
-  justify-content: space-around;
-  -ms-flex-pack: distribute;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
 }
 
 .face-lockup .face-img {
@@ -566,7 +570,7 @@ header .kicker {
 
 .skill-lockup .skill-icons {
   font-size: 0;
-  margin-bottom: 0px 0 30px;
+  margin: 0 0 30px 0;
 }
 
 .skill-lockup .skill-icons span {
@@ -600,13 +604,6 @@ header .kicker {
 
 .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
   background: #e5eaee;
-}
-
-footer {
-  background: url(../img/logo.svg) no-repeat, url(../img/hero-bg.jpg) center center;
-  background-size: 50px 50px, cover;
-  background-position: 30px 50px, 50% 50%;
-  background-blend-mode: overlay, normal;
 }
 
 footer .lockup {
