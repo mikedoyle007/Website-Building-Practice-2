@@ -1,15 +1,14 @@
-<header id="header" style="background-image: url(/assets/img/{{ site.logo }}), url(/assets/img/{{ site.bg-img }})">
+<header id="header">
 
   <!--<div class="logo"></div>-->
 
   <nav>
-    <a href="#about-me">About Me</a>
-    <a href="#me">Work</a>
-    <a href="#clients">Clients</a>
-    <a href="#contact">Contact</a>
+    {% for item in site.data.portfolio.menu %}
+    <a href="{{ item.url }}"> {{ item.name }} </a>
+    {% endfor %}
   </nav>
 
-  <h1><span>{{ site.title }}</span></h1>
-  <p class="kicker">{{ site.kicker }}</p>
+  <h1><span>{{ site.data.portfolio.title }}</span></h1>
+  <p class="kicker">{{ site.data.portfolio.kicker }}</p>
 
 </header>

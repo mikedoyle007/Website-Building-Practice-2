@@ -1,0 +1,42 @@
+#Portfolio Settings
+
+title: Artist Theme
+kicker: "Thinker // Designer // YouTuber"
+email: mikedoyle007@gmail.com
+description: > # Using the Devtips Starter Kit as a starting point, and following along
+  with the Devtips youtube channel to create a version of the Artist Theme Website.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+#Menu Item List
+
+menu:
+  {name: About Me, Url: '#'}
+  {name: Work, Url: '#'}
+  {name: Clients, Url: '#'}
+  {name: Contact, Url: '#'}
+
+#Skill List
+
+skills:
+  {name: Communication, value: '9'}
+  {name: Organization, value: '9'}
+  {name: Learning, value: '9'}
+  {name: Teaching, value: '9'}
+  {name: Planning, value: '9'}
+  {name: Visual Design, value: '9'}
+  {name: UX Design, value: '9'}
+  {name: Programming, value: '9'}
+
+
+
+#Change the site default images and content here!
+
+logo: logo.svg
+bg-img: hero-bg.jpg
+
+avatar: face.jpg
+blurb: <p><strong>Travis specializes in making things</strong> for human people. Most of the things he makes are <a href="http://travisneilson.com">digital interfaces</a>, but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners">YouTube videos</a> about making codes happen.</p>
