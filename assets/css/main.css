@@ -637,3 +637,62 @@ footer .lockup .content-wrap a {
 footer .lockup .content-wrap a:hover {
   color: black;
 }
+
+.alt-section {
+  background: #e5eaee;
+}
+
+.thumb-container {
+  max-width: 960px;
+  margin: 0px auto;
+  padding-bottom: 100px;
+}
+
+.thumb-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.thumb-container .thumb-unit {
+  display: block;
+  width: 25%;
+  float: left;
+  position: relative;
+  padding-top: 16%;
+  overflow: hidden;
+  background-image: url(/assets/img/work/proj-1/thumb.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumb-container .thumb-unit .thumb-overlay {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  background: rgba(201, 144, 101, 0.9);
+  text-align: center;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+}
+
+.thumb-container .thumb-unit .thumb-overlay strong {
+  display: block;
+  padding: 20px;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.thumb-container .thumb-unit:hover .thumb-overlay {
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  left: 0px;
+}
