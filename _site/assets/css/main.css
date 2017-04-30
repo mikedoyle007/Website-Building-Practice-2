@@ -661,10 +661,16 @@ footer .lockup .content-wrap a:hover {
   position: relative;
   padding-top: 16%;
   overflow: hidden;
-  background-image: url(/assets/img/work/proj-1/thumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 760px) {
+  .thumb-container .thumb-unit {
+    width: 50%;
+    padding-top: 26%;
+  }
 }
 
 .thumb-container .thumb-unit .thumb-overlay {
@@ -678,11 +684,36 @@ footer .lockup .content-wrap a:hover {
   -webkit-transition: all 0.15s ease-out 0s;
   -moz-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
 }
 
 .thumb-container .thumb-unit .thumb-overlay strong {
   display: block;
-  padding: 20px;
+  padding: 0px 20px;
   color: white;
   font-weight: 300;
   text-transform: uppercase;
