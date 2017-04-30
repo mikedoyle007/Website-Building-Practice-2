@@ -405,7 +405,7 @@ input[type="button"]:focus {
 header {
   height: 450px;
   background-position: 30px 20px, 50% 50%;
-  background-image: url(/assets/img/{{ site.data.portfolio.logo }}), url(/assets/img/{{ site.data.portfolio.bg-img }});
+  background-image: url(/assets/img/logo.svg), url(/assets/img/hero-bg.jpg);
 }
 
 header .logo {
@@ -493,7 +493,7 @@ header .kicker {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-image: url(/assets/img/{{ site.data.portfolio.avatar }});
+  background-image: url(/assets/img/face.jpg);
   order: 3;
 }
 
@@ -609,7 +609,7 @@ header .kicker {
 }
 
 footer {
-  background-image: url(/assets/img/{{ site.data.portfolio.logo }}), url(/assets/img/{{ site.data.portfolio.bg-img }});
+  background-image: url(/assets/img/logo.svg), url(/assets/img/hero-bg.jpg);
 }
 
 footer .lockup {
