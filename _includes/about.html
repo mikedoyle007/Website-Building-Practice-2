@@ -4,7 +4,7 @@
 
   <div class="face-lockup">
 
-    <div class="face-img" style="background-image: url(/assets/img/{{ site.avatar }})"></div>
+    <div class="face-img"></div>
 
     <div class="icon-pencil">{% include icons/icon-pencil.html %}</div>
     <div class="icon-mouse">{% include icons/icon-mouse.html %}</div>
@@ -14,12 +14,12 @@
   </div>
 
   <div class="blurb">
-    {{ site.blurb }}
+    {{ site.data.portfolio.blurb }}
   </div>
 
   <div class="skill-lockup">
 
-    {% for skill in site.skills %}
+    {% for skill in site.data.portfolio.skills %}
 
     <div class="skill-unit">
       <div class="skill-label">{{ skill.name }}</div>
