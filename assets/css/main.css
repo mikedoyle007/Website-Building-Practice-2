@@ -405,6 +405,7 @@ input[type="button"]:focus {
 header {
   height: 450px;
   background-position: 30px 20px, 50% 50%;
+  background-image: url(/assets/img/logo.svg), url(/assets/img/hero-bg.jpg);
 }
 
 header .logo {
@@ -492,6 +493,7 @@ header .kicker {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  background-image: url(/assets/img/face.jpg);
   order: 3;
 }
 
@@ -604,6 +606,10 @@ header .kicker {
 
 .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
   background: #e5eaee;
+}
+
+footer {
+  background-image: url(/assets/img/logo.svg), url(/assets/img/hero-bg.jpg);
 }
 
 footer .lockup {
